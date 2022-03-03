@@ -85,7 +85,7 @@ const (
 	MonitoringConsoleSts = "splunk-%s-monitoring-console"
 
 	// MonitoringConsolePod Monitoring Console Pod Template String
-	MonitoringConsolePod = "splunk-%s-monitoring-console-%d"
+	MonitoringConsolePod = "splunk-%s-monitoring-console-0"
 
 	// ClusterManagerPod ClusterMaster Pod Template String
 	ClusterManagerPod = "splunk-%s-" + splcommon.ClusterManager + "-0"
@@ -95,6 +95,9 @@ const (
 
 	// NamespaceScopedSecretObjectName Name Space Scoped Secret object Template
 	NamespaceScopedSecretObjectName = "splunk-%s-secret"
+
+	// AppframeworkManualUpdateConfigMap Config map for App Framework manual update
+	AppframeworkManualUpdateConfigMap = "splunk-%s-manual-app-update"
 
 	// VersionedSecretName Versioned Secret object Template
 	VersionedSecretName = "splunk-%s-%s-secret-v%d"
